@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
-        Random random = new Random();
 
         int numeroGerado = new Random().nextInt(31); // gera o numero aleatorio
         /*System.out.println("Numero gerado: " + numeroGerado); // para depuração*/
